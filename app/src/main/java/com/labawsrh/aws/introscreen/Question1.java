@@ -53,7 +53,6 @@ public class Question1 extends AppCompatActivity {
         btn6 = (Button) findViewById(R.id.submit6);
         btn7 = (Button) findViewById(R.id.submit7);
         btn8 = (Button) findViewById(R.id.submit8);
-        btn9 = (Button) findViewById(R.id.submit9);
 
         txt1 = (EditText) findViewById(R.id.ans1);
         txt2 = (EditText) findViewById(R.id.ans2);
@@ -177,72 +176,130 @@ public class Question1 extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        if (currentStep < stepView.getStepCount() - 1) {
-                                            currentStep++;
-                                            stepView.go(currentStep, true);
-                                        } else {
-                                            stepView.done(true);
+                                        String text = txt5.getText().toString().toLowerCase();
+
+                                        if(text.equals("rohini75")) {
+                                            if (currentStep < stepView.getStepCount() - 1) {
+                                                currentStep++;
+                                                stepView.go(currentStep, true);
+                                                Log.i("res", "HIIIii");
+                                            } else {
+                                                stepView.done(true);
+                                            }
+
+                                            layout1.setVisibility(View.GONE);
+                                            layout2.setVisibility(View.GONE);
+                                            layout3.setVisibility(View.GONE);
+                                            layout4.setVisibility((View.GONE));
+                                            layout5.setVisibility(View.GONE);
+                                            layout6.setVisibility(View.VISIBLE);
                                         }
-                                        layout1.setVisibility(View.GONE);
-                                        layout2.setVisibility(View.GONE);
-                                        layout3.setVisibility(View.GONE);
-                                        layout4.setVisibility((View.GONE));
-                                        layout5.setVisibility(View.GONE);
-                                        layout6.setVisibility(View.VISIBLE);
+                                        else{
+                                            Toast.makeText(getApplicationContext(),"Invalid Password",Toast.LENGTH_LONG).show();
+                                        }
+
                                     }
                                 }
         );
+
         btn6.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
+                                        String text = txt6.getText().toString().toLowerCase();
 
-                                        if (currentStep < stepView.getStepCount() - 1) {
-                                            currentStep++;
-                                            stepView.go(currentStep, true);
-                                        } else {
-                                            stepView.done(true);
+                                        if(text.equals("bhaskaracharya")) {
+                                            if (currentStep < stepView.getStepCount() - 1) {
+                                                currentStep++;
+                                                stepView.go(currentStep, true);
+                                                Log.i("res", "HIIIii");
+                                            } else {
+                                                stepView.done(true);
+                                            }
+
+
+                                            layout1.setVisibility(View.GONE);
+                                            layout2.setVisibility(View.GONE);
+                                            layout3.setVisibility(View.GONE);
+                                            layout4.setVisibility((View.GONE));
+                                            layout5.setVisibility(View.GONE);
+                                            layout6.setVisibility(View.GONE);
+                                            layout7.setVisibility(View.VISIBLE);
                                         }
-                                        layout1.setVisibility(View.GONE);
-                                        layout2.setVisibility(View.GONE);
-                                        layout3.setVisibility(View.GONE);
-                                        layout4.setVisibility((View.GONE));
-                                        layout5.setVisibility(View.GONE);
-                                        layout6.setVisibility(View.GONE);
-                                        layout7.setVisibility(View.VISIBLE);
+                                        else{
+                                            Toast.makeText(getApplicationContext(),"Invalid Password",Toast.LENGTH_LONG).show();
+                                        }
                                     }
                                 }
         );
+
         btn7.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
 
-                                        if (currentStep < stepView.getStepCount() - 1) {
-                                            currentStep++;
-                                            stepView.go(currentStep, true);
-                                        } else {
-                                            stepView.done(true);
+                                        String text = txt7.getText().toString().toLowerCase();
+
+                                        if(text.equals("sovietluna")) {
+                                            if (currentStep < stepView.getStepCount() - 1) {
+                                                currentStep++;
+                                                stepView.go(currentStep, true);
+                                                Log.i("res", "HIIIii");
+                                            } else {
+                                                stepView.done(true);
+                                            }
+
+                                            layout1.setVisibility(View.GONE);
+                                            layout2.setVisibility(View.GONE);
+                                            layout3.setVisibility(View.GONE);
+                                            layout4.setVisibility((View.GONE));
+                                            layout5.setVisibility(View.GONE);
+                                            layout6.setVisibility(View.GONE);
+                                            layout7.setVisibility(View.GONE);
+                                            layout8.setVisibility(View.VISIBLE);
+
+                                        }
+                                        else{
+                                            Toast.makeText(getApplicationContext(),"Invalid Password",Toast.LENGTH_LONG).show();
                                         }
 
-                                        layout1.setVisibility(View.GONE);
-                                        layout2.setVisibility(View.GONE);
-                                        layout3.setVisibility(View.GONE);
-                                        layout4.setVisibility((View.GONE));
-                                        layout5.setVisibility(View.GONE);
-                                        layout6.setVisibility(View.GONE);
-                                        layout7.setVisibility(View.GONE);
-                                        layout8.setVisibility(View.VISIBLE);
                                     }
                                 }
         );
+
+
         btn8.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        Intent intent = new Intent(Question1.this,Congrats.class);
-                                        startActivity(intent);
+                                        String text = txt8.getText().toString().toLowerCase();
+
+                                        if(text.equals("rangerrhino")) {
+                                            if (currentStep < stepView.getStepCount() - 1) {
+                                                currentStep++;
+                                                stepView.go(currentStep, true);
+                                                Log.i("res", "HIIIii");
+                                            } else {
+                                                stepView.done(true);
+                                            }
+
+
+                                            layout1.setVisibility(View.GONE);
+                                            layout2.setVisibility(View.GONE);
+                                            layout3.setVisibility(View.GONE);
+                                            layout4.setVisibility((View.GONE));
+                                            layout5.setVisibility(View.GONE);
+                                            layout6.setVisibility(View.GONE);
+                                            layout7.setVisibility(View.GONE);
+                                            layout8.setVisibility(View.GONE);
+                                            layout9.setVisibility(View.VISIBLE);
+
+
+                                        }
+                                        else{
+                                            Toast.makeText(getApplicationContext(),"Invalid Password",Toast.LENGTH_LONG).show();
+                                        }
+
                                     }
                                 }
         );
-
 
 //        verifyCodeButton.setOnClickListener(new View.OnClickListener() {
 //            @Override

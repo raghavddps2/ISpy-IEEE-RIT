@@ -101,7 +101,7 @@
                     android:layout_marginEnd="40dp"
                     android:layout_marginBottom="20dp"
                     android:hint="Type your answer here..."
-                    android:inputType="text"
+                    android:inputType="textPassword"
                     android:padding="10dp" />
             </LinearLayout>
 
@@ -185,7 +185,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -273,7 +273,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -361,7 +361,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -412,25 +412,14 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ques1"
-                    android:textSize="18sp"
+                    android:text="188184138026017016160032240"
+                    android:textSize="20sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:paddingBottom="10dp"
                     android:textAlignment="center"
-                    android:layout_marginBottom="20dp"/>
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="From,\nqupmfnz,\n\nCrqnqikgu iru qc rnxhfqhzqfynts gtj ybpupun gwcz jmenwcdan, ohzvybob. Nzyrclefwletzyd az svaqvat oasfwqo."
-                    android:textSize="18sp"
-                    android:layout_marginLeft="5dp"
-                    android:paddingLeft="10dp"
-                    android:textStyle="bold"
                     android:layout_marginBottom="20dp"/>
 
                 <LinearLayout
@@ -449,7 +438,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -500,26 +489,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ques1"
+                    android:text="The telegram- was a major advancement of communication technology\n\nin 1838, Samuel perfectly explained the first telegram machine
+\n\nThe telegraph was widespread - by 1850’s \n\nAt this time telegraphs were all keyed by hand and transcribed to normal language by ear
+\n\nCreed - found a way to convert it to text- creed telegraph system\n\ninventor- Samuel was born on 1791\n\nHe entered Yale in 1805- went to England to study art away from his hometown\n\nHe sent the first message -” What hath God wrought”"
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:paddingBottom="10dp"
-                    android:textAlignment="center"
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="left"
                     android:layout_marginBottom="20dp"/>
 
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="From,\nqupmfnz,\n\nCrqnqikgu iru qc rnxhfqhzqfynts gtj ybpupun gwcz jmenwcdan, ohzvybob. Nzyrclefwletzyd az svaqvat oasfwqo."
-                    android:textSize="18sp"
-                    android:layout_marginLeft="5dp"
-                    android:paddingLeft="10dp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="20dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -537,7 +519,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -584,11 +566,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/first">
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ques7"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ques1"
+                    android:text="Hint: Go Against the clock."
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -598,16 +588,6 @@
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"/>
 
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="From,\nqupmfnz,\n\nCrqnqikgu iru qc rnxhfqhzqfynts gtj ybpupun gwcz jmenwcdan, ohzvybob. Nzyrclefwletzyd az svaqvat oasfwqo."
-                    android:textSize="18sp"
-                    android:layout_marginLeft="5dp"
-                    android:paddingLeft="10dp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="20dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -625,7 +605,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -676,7 +656,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ques1"
+                    android:text="@string/ques8"
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -690,7 +670,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="From,\nqupmfnz,\n\nCrqnqikgu iru qc rnxhfqhzqfynts gtj ybpupun gwcz jmenwcdan, ohzvybob. Nzyrclefwletzyd az svaqvat oasfwqo."
+                    android:text="@string/ques8a"
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:paddingLeft="10dp"
@@ -713,7 +693,7 @@
                         android:layout_marginEnd="40dp"
                         android:layout_marginBottom="20dp"
                         android:hint="Type your answer here..."
-                        android:inputType="text"
+                        android:inputType="textPassword"
                         android:padding="10dp" />
                 </LinearLayout>
 
@@ -738,42 +718,56 @@
 
             </LinearLayout>
         </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/layout9"
             android:visibility="gone"
             android:gravity="center"
-            android:background="#00A99D"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <pl.droidsonroids.gif.GifImageView
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/panda_dribbble"/>
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/index"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Congratulation your number is verified click Continue to create your profile"
+                android:text="Sorry, I lost connections, i won't be able to help you now, please proceed with the instructions you have."
+                android:textColor="#fff"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This app is developed by IEEE RIT Web Team."
                 android:textColor="#fff"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="12sp"
                 android:textAlignment="center"/>
-            <Button
-                android:id="@+id/submit9"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/button_main_background"
-                android:textStyle="bold"
-                android:textColor="#fff"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Continue"/>
-        </LinearLayout>
 
+        </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 
