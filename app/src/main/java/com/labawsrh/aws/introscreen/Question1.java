@@ -66,7 +66,7 @@ public class Question1 extends AppCompatActivity {
 
 
         stepView = findViewById(R.id.step_view);
-        stepView.setStepsNumber(10);
+        stepView.setStepsNumber(9);
         stepView.go(0, true);
         layout1.setVisibility(View.VISIBLE);
 
@@ -77,7 +77,7 @@ public class Question1 extends AppCompatActivity {
 
                 String text = txt1.getText().toString().toLowerCase();
 
-                if(text.equals("explorer1us")) {
+                if(text.equals("exp!04e4")) {
                     if (currentStep < stepView.getStepCount() - 1) {
                         currentStep++;
                         stepView.go(currentStep, true);
@@ -99,7 +99,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt2.getText().toString().toLowerCase();
 
-                                        if(text.equals("kosmos3m")) {
+                                        if(text.equals("ary@bh@||@")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -122,7 +122,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt3.getText().toString().toLowerCase();
 
-                                        if(text.equals("rangerspd")) {
+                                        if(text.equals("4@ng34")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -151,7 +151,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt4.getText().toString().toLowerCase();
 
-                                        if(text.equals("sputnik1r7")) {
+                                        if(text.equals("$putn!k")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -178,7 +178,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt5.getText().toString().toLowerCase();
 
-                                        if(text.equals("rohini75")) {
+                                        if(text.equals("r0h!n!")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -207,7 +207,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt6.getText().toString().toLowerCase();
 
-                                        if(text.equals("bhaskaracharya")) {
+                                        if(text.equals("bh@$k@4a")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -238,7 +238,7 @@ public class Question1 extends AppCompatActivity {
 
                                         String text = txt7.getText().toString().toLowerCase();
 
-                                        if(text.equals("sovietluna")) {
+                                        if(text.equals("|un@u$s4")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);
@@ -271,7 +271,7 @@ public class Question1 extends AppCompatActivity {
                                     public void onClick(View view) {
                                         String text = txt8.getText().toString().toLowerCase();
 
-                                        if(text.equals("rangerrhino")) {
+                                        if(text.equals("d0n3d0n3!")) {
                                             if (currentStep < stepView.getStepCount() - 1) {
                                                 currentStep++;
                                                 stepView.go(currentStep, true);

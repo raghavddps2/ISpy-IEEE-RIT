@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String text = password.getText().toString();
                     Log.i("text",text);
-                    String text2 = "Allthebest";
+                    String text2 = "get.set.go!!";
                     if(text.equals(text2)){
                         Intent intent = new Intent(MainActivity.this,Question1.class);
                         startActivity(intent);
