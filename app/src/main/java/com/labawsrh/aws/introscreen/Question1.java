@@ -29,6 +29,10 @@ public class Question1 extends AppCompatActivity {
 
     private PinView verifyCodeET;
 
+    @Override
+    public void onBackPressed() {
+        // Do Here what ever you want do on back press;
+    }
 
     @SuppressLint("SetTextI18n")
     @Override
