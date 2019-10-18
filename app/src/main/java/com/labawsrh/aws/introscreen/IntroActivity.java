@@ -67,8 +67,9 @@ public class IntroActivity extends AppCompatActivity {
         // fill list screen
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Aavishkaar 2019","The annual technical fest of IEEE RIT is back with its wide range of events. Be a part and make the most out of it!",R.drawable.aavishkaar));
-        mList.add(new ScreenItem("I-Spy 2019","Welcome to the most successful event of all time. It’s time to hunt for the treasure by using your skills and brains, most importantly your common sense! Just as sweat and blood are equally necessary for victory in a war, patience and perseverance is the key to success for this event",R.drawable.ispy));
+        mList.add(new ScreenItem("Aavishkaar 2019","The annual technical fest of IEEE RIT is back with its wide range of events. ",R.drawable.aavishkaar));
+        mList.add(new ScreenItem("Ispy 2019","Welcome to the most successful event of all time. It’s time to hunt for the treasure by using your skills and brains, most importantly your common sense! ",R.drawable.ispy1));
+
 
         // setup viewpager
         screenPager =findViewById(R.id.screen_viewpager);
