@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#173f59"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <!-- Email Label -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="#f2d956"
+            android:text="Rules and Regulations"
+            android:textSize="28sp" />
+
+        <!-- Password Label -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/rules"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+
+            android:textColor="#d9534f"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Please Note: Do NOT KILL the app at any point of time during the event."
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Enter the password and get started!\n"
+            android:textSize="24sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#ffffff"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:layout_marginTop="24dp"
+            android:shadowColor="@color/stepview_circle_done"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Start the hunt!"/>
+
+    </LinearLayout>
+</ScrollView>

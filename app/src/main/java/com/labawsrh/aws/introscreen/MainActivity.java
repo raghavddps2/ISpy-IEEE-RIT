@@ -16,24 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = findViewById(R.id.btn_login);
-        final EditText password = (EditText)findViewById(R.id.input_password);
-
+        Button btn = (Button)findViewById(R.id.btn_next);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                    String text = password.getText().toString();
-                    Log.i("text",text);
-                    String text2 = "get.set.go!!";
-                    if(text.equals(text2)){
-                        Intent intent = new Intent(MainActivity.this,Question1.class);
-                        startActivity(intent);
-                    }
-                    else{
-                        Toast.makeText(getApplicationContext(),"Invalid password! ",Toast.LENGTH_LONG).show();
-                    }
-
+                Intent intent = new Intent(MainActivity.this,story.class);
+                startActivity(intent);
             }
         });
     }

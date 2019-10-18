@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000000"
+    android:background="#173f59"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -20,8 +20,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="20dp"
-            android:textColor="#ffffff"
-            android:text="Rules and Regulations"
+            android:textStyle="bold"
+            android:textColor="#f2d956"
+            android:text="Here's the story of ISpy!!!"
             android:textSize="28sp" />
 
     <!-- Password Label -->
@@ -33,45 +34,21 @@
             android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="1. This part of the event runs on the current Application platform.\n\n2. Find out the locations using the hints provided. Volunteers at the  location will enter next password if you convince them with the respective hint obtained.\n\n3. Do not move back or close the app. If you do so, it is your responsibility to collect passwords again from all the locations.\n\n4. Any kind of malpractice is strictly prohibited and may lead to direct disqualification \n\n5. Please do have the receipt of event or confirmation mail of event with you which may be verified in event at any point of time."
+            android:text="@string/story"
             android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-
-            android:textColor="#ffffff"
-            android:layout_height="wrap_content"
-            android:text="Enter the password and get started!\n"
-            android:textSize="18sp" />
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textColorHint="#ffffff"
-            android:layout_marginBottom="8dp">
-            <EditText android:id="@+id/input_password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#ffffff"
-                android:outlineAmbientShadowColor="#ffffff"
-                android:outlineSpotShadowColor="#ffffff"
-                android:textColor="#ffffff"
-                android:inputType="textPassword"
-                android:hint="Password"/>
-        </android.support.design.widget.TextInputLayout>
 
         <android.support.v7.widget.AppCompatButton
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_next"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:shadowColor="@color/stepview_circle_done"
+            android:background="@drawable/rounded"
             android:textColor="#ffffff"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="Start the hunt!"/>
+            android:text="Get lost in space"/>
 
 </LinearLayout>
 </ScrollView>

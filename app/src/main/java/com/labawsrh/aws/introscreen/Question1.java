@@ -20,14 +20,15 @@ import com.shuhart.stepview.StepView;
 public class Question1 extends AppCompatActivity {
 
     private int currentStep = 0;
-    LinearLayout layout1,layout2,layout3,layout4,layout5,layout6,layout7,layout8,layout9;
+    LinearLayout layout1,layout2,layout3,layout4,layout5,layout6,layout7,layout8,layout9,layoutX;
     StepView stepView;
 
-    EditText txt1,txt2,txt3,txt4,txt5,txt6,txt7,txt8;
-    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
+    EditText txt1,txt2,txt3,txt4,txt5,txt6,txt7,txt8,txtX;
+    Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btnX;
 
 
     private PinView verifyCodeET;
+
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -44,6 +45,7 @@ public class Question1 extends AppCompatActivity {
         layout7 = (LinearLayout) findViewById(R.id.layout7);
         layout8 = (LinearLayout) findViewById(R.id.layout8);
         layout9 = (LinearLayout) findViewById(R.id.layout9);
+        layoutX = (LinearLayout) findViewById(R.id.layoutX);
 
         btn1 = (Button) findViewById(R.id.submit1);
         btn2 = (Button) findViewById(R.id.submit2);
@@ -53,6 +55,7 @@ public class Question1 extends AppCompatActivity {
         btn6 = (Button) findViewById(R.id.submit6);
         btn7 = (Button) findViewById(R.id.submit7);
         btn8 = (Button) findViewById(R.id.submit8);
+        btnX = (Button) findViewById(R.id.submitX);
 
         txt1 = (EditText) findViewById(R.id.ans1);
         txt2 = (EditText) findViewById(R.id.ans2);
@@ -62,11 +65,11 @@ public class Question1 extends AppCompatActivity {
         txt6 = (EditText) findViewById(R.id.ans6);
         txt7 = (EditText) findViewById(R.id.ans7);
         txt8 = (EditText) findViewById(R.id.ans8);
-
+        txtX = (EditText) findViewById(R.id.ansX);
 
 
         stepView = findViewById(R.id.step_view);
-        stepView.setStepsNumber(9);
+        stepView.setStepsNumber(10);
         stepView.go(0, true);
         layout1.setVisibility(View.VISIBLE);
 
@@ -164,6 +167,34 @@ public class Question1 extends AppCompatActivity {
                                             layout2.setVisibility(View.GONE);
                                             layout3.setVisibility(View.GONE);
                                             layout4.setVisibility((View.GONE));
+                                            layoutX.setVisibility(View.VISIBLE);
+                                        }
+                                        else{
+                                            Toast.makeText(getApplicationContext(),"Invalid Password",Toast.LENGTH_LONG).show();
+                                        }
+                                    }
+                                }
+        );
+
+        btnX.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        String text = txtX.getText().toString().toLowerCase();
+
+                                        if(text.equals("t0p15&")) {
+                                            if (currentStep < stepView.getStepCount() - 1) {
+                                                currentStep++;
+                                                stepView.go(currentStep, true);
+                                                Log.i("res", "HIIIii");
+                                            } else {
+                                                stepView.done(true);
+                                            }
+
+                                            layout1.setVisibility(View.GONE);
+                                            layout2.setVisibility(View.GONE);
+                                            layout3.setVisibility(View.GONE);
+                                            layout4.setVisibility((View.GONE));
+                                            layoutX.setVisibility(View.GONE);
                                             layout5.setVisibility(View.VISIBLE);
                                         }
                                         else{
@@ -191,6 +222,7 @@ public class Question1 extends AppCompatActivity {
                                             layout2.setVisibility(View.GONE);
                                             layout3.setVisibility(View.GONE);
                                             layout4.setVisibility((View.GONE));
+                                            layoutX.setVisibility(View.GONE);
                                             layout5.setVisibility(View.GONE);
                                             layout6.setVisibility(View.VISIBLE);
                                         }
@@ -221,6 +253,8 @@ public class Question1 extends AppCompatActivity {
                                             layout2.setVisibility(View.GONE);
                                             layout3.setVisibility(View.GONE);
                                             layout4.setVisibility((View.GONE));
+
+                                            layoutX.setVisibility(View.GONE);
                                             layout5.setVisibility(View.GONE);
                                             layout6.setVisibility(View.GONE);
                                             layout7.setVisibility(View.VISIBLE);
@@ -252,6 +286,8 @@ public class Question1 extends AppCompatActivity {
                                             layout3.setVisibility(View.GONE);
                                             layout4.setVisibility((View.GONE));
                                             layout5.setVisibility(View.GONE);
+
+                                            layoutX.setVisibility(View.GONE);
                                             layout6.setVisibility(View.GONE);
                                             layout7.setVisibility(View.GONE);
                                             layout8.setVisibility(View.VISIBLE);
@@ -287,6 +323,8 @@ public class Question1 extends AppCompatActivity {
                                             layout4.setVisibility((View.GONE));
                                             layout5.setVisibility(View.GONE);
                                             layout6.setVisibility(View.GONE);
+
+                                            layoutX.setVisibility(View.GONE);
                                             layout7.setVisibility(View.GONE);
                                             layout8.setVisibility(View.GONE);
                                             layout9.setVisibility(View.VISIBLE);

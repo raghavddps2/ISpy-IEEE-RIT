@@ -22,19 +22,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                app:sv_selectedCircleColor="@color/stepview_circle_selected"
+                app:sv_selectedCircleColor="#5bc0de"
                 app:sv_selectedTextColor="@color/stepview_selected_number"
                 app:sv_stepLineWidth="1dp"
                 app:sv_stepPadding="4dp"
                 app:sv_nextTextColor="@color/colorAccent"
                 app:sv_nextStepLineColor="@color/colorAccent"
-                app:sv_doneCircleColor="@color/stepview_circle_done"
+                app:sv_doneCircleColor="#5cb85c"
                 app:sv_doneStepLineColor="@color/colorAccent"
                 app:sv_doneCircleRadius="12dp"
                 app:sv_selectedCircleRadius="12dp"
                 app:sv_selectedStepNumberColor="@color/colorPrimary"
                 app:sv_stepViewStyle="@style/StepView"
-                app:sv_doneStepMarkColor="@color/stepview_text_done"
+                app:sv_doneStepMarkColor="#ffffff"
                 app:sv_stepNumberTextSize="12sp"
                 app:sv_animationType="Line"/>
         </LinearLayout>
@@ -64,6 +64,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Decrypt the following cypher to reach the next station"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/ques1"
                 android:textSize="18sp"
                 android:layout_marginLeft="5dp"
@@ -80,6 +94,18 @@
                 android:layout_height="wrap_content"
                 android:text="From,\nqupmfnz,\n\nCrqnqikgu iru qc rnxhfqhzqfynts gtj ybpupun gwcz jmenwcdan, ohzvybob. Nzyrclefwletzyd az svaqvat oasfwqo."
                 android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Destination: Orbit 3"
+                android:textColor="#5bc0de"
+                android:textSize="20sp"
                 android:layout_marginLeft="5dp"
                 android:paddingLeft="10dp"
                 android:textStyle="bold"
@@ -149,6 +175,20 @@
                 app:layout_constraintTop_toBottomOf="@+id/first">
 
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Decode to reach the next station"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"/>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -168,6 +208,18 @@
                     android:paddingLeft="10dp"
                     android:textStyle="bold"
                     android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Launchpad"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -236,7 +288,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Connect the images given below"
+                    android:text="Choose the first letter of every answer and rearrange to go to next station "
                     android:textSize="18sp"
                     android:layout_marginTop="10dp"
                     android:textAlignment="center"
@@ -310,6 +362,19 @@
                     android:scaleType="fitXY"
                     android:src="@drawable/grp6"/>
 
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 0"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -377,7 +442,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="If am totally perfect, you would be in the next satellite station"
+                    android:text="If the poem is totally perfect, you will be in the next satellite station"
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -397,6 +462,18 @@
                     android:paddingLeft="10dp"
                     android:textStyle="bold"
                     android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 3"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -447,6 +524,84 @@
 
 
             <LinearLayout
+                android:id="@+id/layoutX"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/first">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/l1"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/ansX"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:background="@drawable/edittext_background"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:hint="Enter Password..."
+                        android:inputType="textPassword"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:background="@drawable/button_main_background"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:id="@+id/submitX"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="next"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/map"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
                 android:id="@+id/layout5"
                 android:visibility="gone"
                 android:layout_width="match_parent"
@@ -461,19 +616,60 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/first">
 
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="188184138026017016160032240"
-                    android:textSize="20sp"
+                    android:text="Decrypt to go to next station"
+                    android:textSize="18sp"
                     android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
                     android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:paddingBottom="10dp"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="244196048181126220238130238"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HINT: (3,3,3)"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 2"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -551,9 +747,20 @@
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:paddingBottom="10dp"
-                    android:textAlignment="viewStart"
                     android:layout_gravity="left"
                     android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 4"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
 
 
                 <LinearLayout
@@ -619,6 +826,20 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/first">
 
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Solve this!!"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"/>
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -631,7 +852,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hint: Go Against the clock."
+                    android:text="Hint1: Go Against the clock.\nHint 2"
                     android:textSize="18sp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
@@ -640,6 +861,28 @@
                     android:paddingBottom="10dp"
                     android:textAlignment="center"
                     android:layout_marginBottom="20dp"/>
+
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tinder"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 0"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
 
 
                 <LinearLayout
@@ -660,28 +903,31 @@
                         android:hint="Enter Password..."
                         android:inputType="textPassword"
                         android:padding="10dp" />
+
                 </LinearLayout>
+                    <Button
+                        android:background="@drawable/button_main_background"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:id="@+id/submit7"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="next"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/map"/>
 
-                <Button
-                    android:background="@drawable/button_main_background"
-                    android:textColor="#fff"
-                    android:textStyle="bold"
-                    android:id="@+id/submit7"
-                    android:layout_margin="10dp"
-                    android:layout_marginBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="next"/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/map"/>
 
-            </LinearLayout>
+
+        </LinearLayout>
+
         </ScrollView>
 
 
@@ -725,6 +971,18 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ques8a"
                     android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination: Orbit 3"
+                    android:textColor="#5bc0de"
+                    android:textSize="20sp"
                     android:layout_marginLeft="5dp"
                     android:paddingLeft="10dp"
                     android:textStyle="bold"
@@ -779,6 +1037,7 @@
             android:id="@+id/layout9"
             android:visibility="gone"
             android:gravity="center"
+            android:background="#173f59"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -791,7 +1050,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sorry, I lost connections, i won't be able to help you now, please proceed with the instructions you have."
-                android:textColor="#000000"
+                android:textColor="#d9534f"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="15dp"
@@ -803,8 +1062,21 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Head to space now!"
+                android:textColor="#f2d956"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="This app is developed by IEEE RIT Web Team."
-                android:textColor="#000000"
+                android:textColor="#fcfcfe"
                 android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
                 android:textStyle="bold"
@@ -813,6 +1085,7 @@
 
         </LinearLayout>
         </ScrollView>
+
     </LinearLayout>
 
 
